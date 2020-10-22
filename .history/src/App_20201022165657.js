@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchCats } from './actions/catActions'
-import CatList from './CatList'
  
 class App extends Component {
  
@@ -16,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>CatBook</h1>
-        <CatList catPics={this.props.catPics} />
+        {/* missing component */}
       </div>
     );
   }
